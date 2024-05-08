@@ -23,6 +23,8 @@ The hall owner will like so the usual users and other users can use this website
 
 ### Proposed Solution
 
+A website/app that is better than the current one on the sides of design and management. the website/app will include: 
+
 clients should be able to do: 
  - create an account 
  - log in/out of their account 
@@ -30,34 +32,40 @@ clients should be able to do:
 
 what the all owner should be able to do:
 - see all accounts registered
+- view what dates are booked
+- delete accounts 
  
 
 
 -------------------------------------------------
 
-## Relevant Implications
+# Relevant Implications
 
-### IMPLICATION NAME HERE
+## Usability  
 
-Replace this text with a clear explanation of what the implication means.
+### Explanation 
+The usability implications of a digital technology or digital outcome (e.g. a website) relate to how easy it is to use for the end-user, without the need for help or guidance.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+### Relevance  
+I will need to design my website as simple as possible because the end users can be anyone and may come from all walks and will have a wide range of skills on using websites. I will need to make sure that the system is usable to anyone even if they aren't skilled with IT. 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+### Impact/ Considerations
 
-### IMPLICATION NAME HERE
+As I design my website I will refer back to Nielson's heuristics and make sure that the websites UI meets the heuristics requirements as much as possible.
 
-Replace this text with a clear explanation of what the implication means.
+i will make sure the UI is the most minimalistic and has all the functions it should have. everything will be clear on what does what. all the steps to book a court should be straight forward and simple, it should only take a few clicks to book a court. 
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
-### IMPLICATION NAME HERE
+## Privacy  
 
-Replace this text with a clear explanation of what the implication means.
+### Explanation
+The privacy implications of a digital technology or digital outcome (e.g. a website) relate to protecting the privacy of end-users and their data.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+### Relevance
+Because there will be so many accounts that people make i need to make sure that all their details are stored safely in the database. 
+
+### Impact/ Considerations  
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
