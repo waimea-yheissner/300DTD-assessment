@@ -53,7 +53,7 @@ I will need to design my website as simple as possible because the end users can
 
 As I design my website I will refer back to Nielson's heuristics and make sure that the websites UI meets the heuristics requirements as much as possible.
 
-i will make sure the UI is the most minimalistic and has all the functions it should have. everything will be clear on what does what. all the steps to book a court should be straight forward and simple, it should only take a few clicks to book a court. 
+I will make sure the UI is the most minimalistic and has all the functions it should have. everything will be clear on what does what. all the steps to book a court should be straight forward and simple, it should only take a few clicks to book a court. 
 
 
 
@@ -66,10 +66,43 @@ The privacy implications of a digital technology or digital outcome (e.g. a webs
 Because there will be so many accounts that people make i need to make sure that all their details are stored safely in the database. 
 
 ### Impact/ Considerations  
+As I work on the privacy and security i will refer back to Nielson's heuristics and make sure that I can make the website as secure and private as possible.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will store the users data in an data base where their passwords will be hashed so even if there is an data base breach the bad actor will only be able to access the users username. 
 
+## Accessibility  
+ 
+### Explanation
+The accessibility implications of a digital technology or digital outcome (e.g. a website) involve ensuring it is available to, and can be used by, all end-users, regardless of their abilities.
 
+### Relevance
+This website will be accessed from different devices and people. I will base my UI to be able to be used on mobile devices but also make it functional on desktops. 
+
+### Impact/ Considerations  
+As I design my systems UI I will be focused on the mobile devices UI but i will also make so it is usable on desktops too. 
+I will need to consider people who have colour blind, impaired vision, and dyslexia will be using this app/website too so will keep all the colours simple so it is accessible to all people.  
+
+## Aesthetic
+
+### Explanation
+The aesthetic implications of a digital technology or digital outcome (e.g. a website) relate to how it looks in terms of design.
+
+### Relevance
+My website will need the simplest aesthetic as possible so it is easy to navigate so that the user can finish what they want to do fast. The font will be easy to read for all people. I will need make sure that the website is still appealing but simple. 
+
+### Impact/ Considerations  
+I will make the websites aesthetic suit its purpose of the hall booking service. Which means it will be simple and only a few colours. I will also use colours to maybe categorise things so users know what they are doing that moment.
+
+## Functionality
+
+### Explanation
+The functionality implications of a digital technology or digital outcome (e.g. a website) relate to how well it works for the end-user, in terms of meeting its intended purpose.
+
+### Relevance
+With this website it is important for it to function as an hall booking app. which means all users should be able select a date then time to book and other users should not be able to book times that have already have been booked.
+
+### Impact/ Considerations
+It will be important to have functions that come up with an error message if the users is trying to put invalid dates, times, or booking a time which has already been booked. It will need the original purpose of being simple and easy to navigate so all the navigations should take the users where they should. All the functions should work as the user expects and should have no bugs or crashes. 
 -------------------------------------------------
 
 ## Relevant User Experience (UX) Principles
