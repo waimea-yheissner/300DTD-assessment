@@ -103,11 +103,28 @@ With this website it is important for it to function as an hall booking app. whi
 
 ### Impact/ Considerations
 It will be important to have functions that come up with an error message if the users is trying to put invalid dates, times, or booking a time which has already been booked. It will need the original purpose of being simple and easy to navigate so all the navigations should take the users where they should. All the functions should work as the user expects and should have no bugs or crashes. 
+
 -------------------------------------------------
 
 ## Relevant User Experience (UX) Principles
 
-### UX PRINCIPLE NAME HERE
+### Visibility of System Status
+
+Visibility of System Status is all about Keeping users informed about what is going on.
+
+This UX principle is relevant to my website/app because the users will always need to be informed on what step they are to booking a court.
+
+The website/app will always have an indicator on top of the screen on what the user is doing. 
+
+### User Control and Freedom
+
+User Control and Freedom is about giving users a clear 'emergency exit' to get out of unwanted states.
+
+This UX principle is relevant to my website/app because the users should be able to cancel their bookings and always have an back button so they can undo something if they made an mistake. 
+
+The website/app will have cancel options for hall booking times so even if the users book the wrong time or date they can just cancel that booking and create a new one.
+
+### Match Between System and the Real World
 
 Replace this text with a clear explanation of what the UX design principle means.
 
@@ -115,21 +132,10 @@ Replace this text with an explanation of why the principle is relevant to this p
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
 
-### UX PRINCIPLE NAME HERE
+### Error Prevention
 
-Replace this text with a clear explanation of what the UX design principle means.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
-
-### UX PRINCIPLE NAME HERE
-
-Replace this text with a clear explanation of what the UX design principle means.
-
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+### Aesthetic and Minimalist Design
 
 
 -------------------------------------------------
