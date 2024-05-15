@@ -122,64 +122,81 @@ User Control and Freedom is about giving users a clear 'emergency exit' to get o
 
 This UX principle is relevant to my website/app because the users should be able to cancel their bookings and always have an back button so they can undo something if they made an mistake. 
 
-The website/app will have cancel options for hall booking times so even if the users book the wrong time or date they can just cancel that booking and create a new one.
+The website/app will have cancel options for hall booking times so even if the users book the wrong time or date they can just cancel that booking and create a new one. The website will always have an back button so they can go back at any time they want. 
 
 ### Match Between System and the Real World
 
-Replace this text with a clear explanation of what the UX design principle means.
+Match Between System and the Real World UX is about using words, images and concepts that are familiar to the user which reflect real-world experiences.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+This UX is relevant to my website because there will be a lot of users using this website so all the features should be similar to the real world so users understand whats happening and what they are doing. 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+The website will have courts 1 to 4 designed to look similar to the real courts so users know what courts they are booking. All the error messages will be in red to match everything else in the real world so the users know there was an error. 
 
 ### Error Prevention
+Error Prevention is about preventing users from making errors if possible. Or at least give users a confirmation option before they commit to an irreversible action.
 
+This UX is relevant to my project because it will be important for users to select invalid dates, times. It is also important to let users know that it is invalid to book courts that are already booked. 
 
 ### Aesthetic and Minimalist Design
+
+-------------------------------------------------
+
+## Final System Design
+
+### Database Structure
+
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
+
+### User Interface Design
+
+Place images here that show your *final design* of your UI: layout, colours, etc.
 
 
 -------------------------------------------------
 
-## Design, Development and Testing Log
+## Completed System
 
-### DATE HERE
+### Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### User Interface Design
 
-### DATE HERE
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+## Review and Evaluation
 
-Replace this test with what you are working on
+### Meeting the Needs of the Users
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-### DATE HERE
+### Meeting the System Requirements
 
-Replace this test with what you are working on
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of IMPLICATION NAME HERE
 
-### DATE HERE
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this test with what you are working on
+### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### DATE HERE
+### Review of IMPLICATION NAME HERE
 
-Replace this test with what you are working on
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of UX PRINCIPLE NAME HERE
 
-### DATE HERE
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this test with what you are working on
+### Review of UX PRINCIPLE NAME HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
