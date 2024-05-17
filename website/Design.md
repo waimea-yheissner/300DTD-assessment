@@ -137,7 +137,15 @@ Error Prevention is about preventing users from making errors if possible. Or at
 
 This UX is relevant to my project because it will be important for users to select invalid dates, times. It is also important to let users know that it is invalid to book courts that are already booked. 
 
+The website will need error messages for when users are trying to select an invalid date or trying to book an court that has already been booked. 
+
 ### Aesthetic and Minimalist Design
+
+Aesthetic and Minimalist Design is about Keeping the UI a simple as possible, focussing on the current user action. The website should only show necessary information at any stage and avoid overwhelming the user with useless information.
+
+This UX is relevant to my project because the websites purpose is about being able to book courts easily, fast and avoiding any6 extra steps. 
+
+The website will have the minimalist design and simple colours and the least amount of steps as possible so the users can finish what they want to do as quick as possible and not be overwhelmed. 
 
 -------------------------------------------------
 
