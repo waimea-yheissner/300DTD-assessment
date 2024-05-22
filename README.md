@@ -1,6 +1,6 @@
 # Badminton hall booking app
 
-![badminton hall](<badminton hall.png>)
+![badminton hall](<images/badminton hall.png>)
 
 this is the repo of my badminton website
 
@@ -15,7 +15,7 @@ It is a database-driven web app that allows users to:
 
 ## Documentation
 
-the following documents suppot this project:
+the following documents support this project:
 
 - [Design & Review](Design.md)
 - [Development & Testing](development.md)

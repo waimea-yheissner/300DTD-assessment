@@ -21,7 +21,7 @@ I am designing my database and navigations of the website/app.
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-![Alt text](image.png)
+![Alt text](images/flow.png)
 
 ### DATE HERE
 
