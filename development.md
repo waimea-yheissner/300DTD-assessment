@@ -21,7 +21,15 @@ I am designing my database and navigations of the website/app.
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
+This will be the general flow of the website for users. 
+
 ![Alt text](images/flow.png)
+
+### 23/05/2024
+
+The admin will have a different log in, when the admin logs in the admin flow will look like this. 
+
+![Alt text](images/admin-flow.png)
 
 ### DATE HERE
 

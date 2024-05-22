@@ -18,7 +18,7 @@ There is a problem where the current hall booking website does not work on mobil
 ### End-User Requirements
 
 The Richmond hall owner and usual users are the clients. The hall owner has an website set up for the usual users to book the courts with their accounts but whenever someone new wants to create an account they have to call the hall owner to open an account. The usual users also struggle to use this website on their mobile devices.  
-The hall users will want to see clearly what times on what dates they can book, they will also want to easily navigate through the website. For example, they should be able to go the next week, next day. 
+The hall users will want to see clearly what times on what dates they can book, they will also want to easily navigate through the website. For example, they should be able to go the next week, next day. they should also be able to delete their booking too. 
 The hall owner will like so the usual users and other users can use this website without doing anything himself.  
 
 ### Proposed Solution
@@ -29,6 +29,7 @@ clients should be able to do:
  - create an account 
  - log in/out of their account 
  - view what dates they can book
+ - Delete/cancel their bookings 
 
 what the all owner should be able to do:
 - see all accounts registered
