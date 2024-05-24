@@ -31,15 +31,13 @@ The admin will have a different log in, when the admin logs in the admin flow wi
 
 ![Alt text](images/admin-flow.png)
 
-### DATE HERE
+### 24/05/2024
 
-Replace this test with what you are working on
+![Alt text](images/figma.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I started working on my UI on figma to start testing the layouts and colours. 
 
 > Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
 ### DATE HERE
 
