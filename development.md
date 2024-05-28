@@ -39,7 +39,9 @@ I started working on my UI on figma to start testing the layouts and colours.
 
 > Replace this text with any user feedback / comments
 
-### DATE HERE
+### 28/05/2024
+
+![Alt text](image.png)
 
 Replace this test with what you are working on
 
