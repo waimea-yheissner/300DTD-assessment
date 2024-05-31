@@ -33,33 +33,26 @@ The admin will have a different log in, when the admin logs in the admin flow wi
 
 ### 24/05/2024
 
-![Alt text](images/figma.png)
+![Alt text](images/first-figma.png)
 
 I started working on my UI on figma to start testing the layouts and colours. 
 
-> Replace this text with any user feedback / comments
+>
 
 ### 28/05/2024
 
-![Alt text](image.png)
+![Alt text](images/second-figma.png)
 
-Replace this test with what you are working on
+I have been working on figma designing my UI. 
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### 31/05/2024
 
-> Replace this text with any user feedback / comments
+![Alt text](images/complete-figma.png)
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+I have completed the UI design on figma and now waiting on a response frm my end user on the functions and design. 
 
-### DATE HERE
 
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-> Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+the basic functions are that users can login/sign up/logout. they can go straight to the bookings and choose a time and book an court. 
 
 ### DATE HERE
 
