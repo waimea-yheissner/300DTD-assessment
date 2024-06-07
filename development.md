@@ -17,9 +17,6 @@ I am designing my database and navigations of the website/app.
 
 ![Alt text](images/db.png)
 
-> Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
 This will be the general flow of the website for users. 
 
@@ -30,6 +27,8 @@ This will be the general flow of the website for users.
 The admin will have a different log in, when the admin logs in the admin flow will look like this. 
 
 ![Alt text](images/admin-flow.png)
+
+My end user was happy on all the functions I had on my flow diagram. 
 
 ### 24/05/2024
 
@@ -54,15 +53,11 @@ I have completed the UI design on figma and now waiting on a response frm my end
 
 the basic functions are that users can login/sign up/logout. they can go straight to the bookings and choose a time and book an court. 
 
-### DATE HERE
+### 07/06/2024
 
-Replace this test with what you are working on
+![Alt text](images/colours.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-> Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+I made some more variations of my app/website so that there are more options for my end-user if they don't like the initial design.   
 
 ### DATE HERE
 
