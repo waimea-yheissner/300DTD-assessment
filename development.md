@@ -24,7 +24,7 @@ This will be the general flow of the website for users.
 
 ### 23/05/2024
 
-The admin will have a different log in, when the admin logs in the admin flow will look like this. 
+The admin will have a different log in, the admin will be able to the users and delete, and add users, they can also delete booking if needed when the admin logs in the admin flow will look like this. 
 
 ![Alt text](images/admin-flow.png)
 
@@ -59,12 +59,13 @@ the basic functions are that users can login/sign up/logout. they can go straigh
 
 I made some more variations of my app/website so that there are more options for my end-user if they don't like the initial design.   
 
-### DATE HERE
+### 11/06/2024
 
-Replace this test with what you are working on
+I got my user feedback and this is what they said. 
+![Alt text](images/feedback.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I made the footer a darker colour to add variations and to keep a nice balance to my app/website as my end user said so. when I added the badminton logo to the website I decided to also make a version where the footer is orange to match the logo, so i will ask my end user on which one they think is better. 
 
-> Replace this text with any user feedback / comments
+You are able to see the changes I made based on my feedback below. 
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+![Alt text](images/updated-figma.png)
