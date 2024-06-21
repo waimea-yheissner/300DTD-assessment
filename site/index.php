@@ -9,11 +9,19 @@ require_once 'lib/router.php';
 const SITE_NAME  = 'PHP Routing with HTMX';
 const SITE_OWNER = 'Waimea College';
 
+// Setup browser session
+session_name('yheissnerBookings');
+session_start();
 
 //-------------------------------------------------------------
 // Initialise the router
 $router = new Router(['debug' => true]);
 
+//-------------------------------------------------------------
+// see if logged in
+$loggedIn = $_SESSION['user']['loggedIn'] ?? false;
+
+consoleLog($_SESSION);
 
 //-------------------------------------------------------------
 // Define routes
@@ -21,7 +29,15 @@ $router = new Router(['debug' => true]);
 $router->route(GET, PAGE, '/', 'pages/home.php');
 $router->route(GET, PAGE, '/about', 'pages/about.php');
 
+$router->route(GET, PAGE, '/login', 'pages/login.php');
+$router->route(GET, PAGE, '/signup', 'pages/signup.php');
+$router->route(POST,   HTMX, '/login',     'actions/login-user.php');
+$router->route(POST,   HTMX, '/logout',    'actions/logout-user.php');
+
 //-------------------------------------------------------------
 // Generate the required view
 
 $router->view();
+
+
+
