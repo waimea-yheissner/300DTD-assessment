@@ -6,7 +6,7 @@ require_once 'lib/debug.php';
 require_once 'lib/router.php';
 
 // Site Configuration
-const SITE_NAME  = 'PHP Routing with HTMX';
+const SITE_NAME  = 'Nelson badminton';
 const SITE_OWNER = 'Waimea College';
 
 // Setup browser session
@@ -28,11 +28,14 @@ consoleLog($_SESSION);
 
 $router->route(GET, PAGE, '/', 'pages/home.php');
 $router->route(GET, PAGE, '/about', 'pages/about.php');
+$router->route(GET, PAGE, '/bookings', 'pages/bookings.php');
 
 $router->route(GET, PAGE, '/login', 'pages/login.php');
 $router->route(GET, PAGE, '/signup', 'pages/signup.php');
 $router->route(POST,   HTMX, '/login',     'actions/login-user.php');
 $router->route(POST,   HTMX, '/logout',    'actions/logout-user.php');
+$router->route(POST,   HTMX, '/signup', 'actions/signup-user.php');
+
 
 //-------------------------------------------------------------
 // Generate the required view

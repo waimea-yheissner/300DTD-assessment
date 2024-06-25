@@ -6,14 +6,14 @@ require 'lib/db.php';
 
 consoleLog($_POST, 'Form Data');
 
-$uesr = $_POST['user'];
+$user = $_POST['user'];
 $pass = $_POST['pass'];
 
 $db = connectToDB();
 // try to find user account with the given username     
 $query = 'SELECT * FROM users WHERE username = ?';
 $stmt = $db->prepare($query);
-$stmt->execute([$uesr]);
+$stmt->execute([$user]);
 $userData = $stmt->fetch();
 
 consoleLog($userData, 'DB Data');
