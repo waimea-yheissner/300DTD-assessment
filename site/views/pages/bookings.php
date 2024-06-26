@@ -11,4 +11,9 @@
 
     <h1>Todays bookings</h1>
 
+
+    <button hx-get="/booking-form" hx-swap="outerHTML">
+                <strong>C</strong>reate booking
+            </button>
+
 <?php endif ?>

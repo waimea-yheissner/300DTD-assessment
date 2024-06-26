@@ -10,6 +10,7 @@
     <menu hx-boost="true">
         <li><a href="/">Home</a>
         <li><a href="/about">About</a>
+
         
         <?php if ($loggedIn): ?>
             
