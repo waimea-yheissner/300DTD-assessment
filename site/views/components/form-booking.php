@@ -5,16 +5,16 @@
         <h3>New Booking</h3>
     
         <label>username</label>
-        <input name="user" type="text" required>
+        <input name="username" type="text" required>
     
         <label>Court number</label>
-        <input name="court_number" type="int" required>
+        <input name="court_id" type="int" required>
     
         <label>Date</label>
-        <input name="user" type="date" required>
+        <input name="date" type="date" required>
     
         <label>Time</label>
-        <input name="pass" type="time" required>
+        <input name="time" type="time" required>
     
         <input type="submit" value="create-booking">
     

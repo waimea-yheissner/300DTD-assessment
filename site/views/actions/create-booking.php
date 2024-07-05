@@ -6,13 +6,13 @@ consoleLog($_POST, 'Form data');
 
 //get the data values from form
 $user = $_POST['username'];
-$court  = $_POST['court_number'];
+$court  = $_POST['court_id'];
 $date = $_POST['date'];
 $time = $_POST['time'];
 
 $db = connectToDB();
 // add the user account     
-$query = 'INSERT INTO bookings (username, court_number, date, time) VALUES (?, ?, ?, ?)';
+$query = 'INSERT INTO bookings (username, court_id, date, time) VALUES (?, ?, ?, ?)';
 $stmt = $db->prepare($query);
 $stmt->execute([$user, $court, $date, $time]);
 
