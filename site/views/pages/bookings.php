@@ -9,7 +9,7 @@
 
 <?php else: ?>
 
-    <h1>Todays bookings</h1>
+    <h1>Today's bookings</h1>
 
 
     <button hx-get="/booking-form" hx-swap="outerHTML">
@@ -18,14 +18,14 @@
 
 <?php 
 
-require 'lib/db.php';
+require 'lib/db.php';   
 
 $db = connectToDB();
 
-$query = 'SELECT * FROM bookings';
+$query = 'SELECT * FROM bookings WHERE date = ?';
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute();
+    $stmt->execute([date('Y-m-d')]);
     $bookings = $stmt->fetchAll();
 }
 catch (PDOException $e) {
@@ -35,14 +35,21 @@ catch (PDOException $e) {
 
 foreach ($bookings as $booking) {
 
+    $bookingDate = new DateTimeImmutable($booking['date']);
+    $bookingDateText = $bookingDate->format('d M Y');
+
+    $bookingTime = new DateTimeImmutable($booking['time']);
+    $bookingTimeText = $bookingTime->format('g:ia');
+
+
     echo '<li>';
     echo $booking['username'];
 
-    echo $booking['court_id'];
+    echo ' '.$booking['court_id'];
 
-    echo $booking['date'];
+    echo ' '.$bookingDateText;
 
-    echo $booking['time'];
+    echo '  '.$bookingTimeText;
     echo '</li>';
 
 }

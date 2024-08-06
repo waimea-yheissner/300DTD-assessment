@@ -69,3 +69,7 @@ I made the footer a darker colour to add variations and to keep a nice balance t
 You are able to see the changes I made based on my feedback below. 
 
 ![Alt text](images/updated-figma.png)
+
+### 14/06/2024
+
+I started to make my website and I am focusing on the functions first before I start my design side of the project.
