@@ -16,6 +16,16 @@
                 <strong>C</strong>reate booking
             </button>
 
+    
+    <button>
+        Previous day
+    </button>
+    
+    <button>
+        Next day 
+    </button>
+
+    
 <?php 
 
 require 'lib/db.php';   
@@ -32,6 +42,7 @@ catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
     die('There was an error getting data from the database');
 }
+
 
 foreach ($bookings as $booking) {
 
