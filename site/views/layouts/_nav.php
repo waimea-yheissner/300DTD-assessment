@@ -1,6 +1,6 @@
 <!-- Main navigation menu. Can add logic for user type / access -->
 
-<?php 
+<!-- <?php 
     global $loggedIn;    
     consoleLog($loggedIn);
 ?>
@@ -31,4 +31,4 @@
 
 
 <!-- Update the nav links -->
-<script>configureNav();</script>
+<script>configureNav();</script> -->

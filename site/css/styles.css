@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #FAFFF3;
 }
 
 
@@ -23,17 +24,19 @@ body {
     align-items: center;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 2rem;
+    background-color: #FAFFF3;
 }
 
 #main-header > * {
     margin: 0;
+    color: black;
 }
 
 #main-header > a {
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 
 
@@ -43,6 +46,8 @@ body {
     text-align: center;
     border-top: 1px solid var(--border-color);
     margin-top: 2rem;
+    background-color: #144579;
+    color: #ffff;
 }
 
 
@@ -61,6 +66,7 @@ body {
 #main-nav a[aria-current="page"] {
     color: var(--link-active-color);
     text-decoration: underline;
+    
 }
 
 
@@ -69,6 +75,7 @@ body {
 main {
     flex: 1;
     max-width: 60rem;
+
 }
 
 
@@ -83,5 +90,9 @@ section {
 article {
     border: 1px solid var(--border-color);
     min-height: 6rem;
+}
+
+h1 {
+    color: black;
 }
 

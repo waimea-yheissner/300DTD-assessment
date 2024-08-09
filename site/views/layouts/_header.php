@@ -4,6 +4,7 @@
     
     <a href="/"><?= SITE_NAME ?></a>
 
+    
 
 
     <?php 
@@ -18,8 +19,10 @@
         }
     ?>
 
-
-    <?php require '_nav.php'; ?>
+<img src="images/netflex.png" alt="badminton" style="width: 7vw; min-width: 75px;"/> 
+ <?php  //require '_nav.php'; ?> 
 
 </header>
+
+<img src="images/badminton.png" alt="badminton">
 

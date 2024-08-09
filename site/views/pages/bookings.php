@@ -25,6 +25,18 @@
         Next day 
     </button>
 
+
+    <a href="/">back</a>
+
+    <?php
+if (isset($_GET['next_day'])) {
+    $current_date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
+    $next_date = date('Y-m-d', strtotime($current_date . ' +1 day'));
+    header("Location: ?date=$next_date");
+    exit();
+}
+?>
+
     
 <?php 
 
