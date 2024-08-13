@@ -68,7 +68,7 @@ foreach ($bookings as $booking) {
     $bookingDate = new DateTimeImmutable($booking['date']);
     $bookingDateText = $bookingDate->format('d M Y');
 
-    $bookingTime = new DateTimeImmutable($booking['time']);
+    $bookingTime = new DateTimeImmutable($booking['starttime']);
     $bookingTimeText = $bookingTime->format('g:ia');
 
 
@@ -78,6 +78,8 @@ foreach ($bookings as $booking) {
     echo ' '.$booking['court_id'];
 
     echo ' '.$bookingDateText;
+
+    echo '  '.$bookingTimeText;
 
     echo '  '.$bookingTimeText;
     echo '</li>';

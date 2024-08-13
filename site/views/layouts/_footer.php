@@ -6,4 +6,12 @@
         &copy; <?= date('Y') ?> <?= SITE_OWNER ?>
     </p>
 
+    <p>
+        Address: 20B Gladstone Road, Richmond 7020
+    </p>
+
+    <p>
+        phone: 028-5374-726 
+    </p>
+
 </footer>

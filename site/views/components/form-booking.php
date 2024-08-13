@@ -18,9 +18,12 @@
         <label>Date</label>
         <input name="date" type="date" required>
     
-        <label>Time</label>
-        <input name="time" type="time" step="900" value="08:00" required>
-    
+        <label>Start Time</label>
+        <input name="starttime" type="time" step="900" value="08:00" required>
+
+        <label>End Time</label>
+        <input name="endtime" type="time" step="900" value="08:00" required>
+
         <input type="submit" value="create-booking">
     
     </form>

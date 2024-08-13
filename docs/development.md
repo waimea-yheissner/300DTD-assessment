@@ -74,6 +74,15 @@ You are able to see the changes I made based on my feedback below.
 
 I started to make my website and I am focusing on the functions first before I start my design side of the project.
 
+### 09/08/2024 
+
+I worked on my css on only for mobile and I attempted to make it as the figma design. 
+
+![Alt text](images/css.png)
+
 ### 13/08/2024 
 
-i
+I have added the functions next day, previous day, next week, previous week by using the offset function. 
+
+![Alt text](images/next-page.png)
+
