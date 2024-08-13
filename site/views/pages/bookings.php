@@ -9,74 +9,32 @@
 
 <?php else: ?>
 
-    <h1>Today's bookings</h1>
+    <?php
+// if (isset($_GET['next_day'])) {
+//     $current_date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
+//     $next_date = date('Y-m-d', strtotime($current_date . ' +1 day'));
+//     header("Location: ?date=$next_date");
+//     exit();
+// }
+?>
 
+<section 
+    hx-get="/bookings/0" 
+    id="bookings-list"
+    hx-trigger="load"
+>
 
+</section>
+    
     <button hx-get="/booking-form" hx-swap="outerHTML">
                 <strong>C</strong>reate booking
             </button>
 
     
-    <button>
-        Previous day
-    </button>
-    
-    <button>
-        Next day 
-    </button>
+
 
 
     <a href="/">back</a>
 
-    <?php
-if (isset($_GET['next_day'])) {
-    $current_date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
-    $next_date = date('Y-m-d', strtotime($current_date . ' +1 day'));
-    header("Location: ?date=$next_date");
-    exit();
-}
-?>
-
-    
-<?php 
-
-require 'lib/db.php';   
-
-$db = connectToDB();
-
-$query = 'SELECT * FROM bookings WHERE date = ?';
-try {
-    $stmt = $db->prepare($query);
-    $stmt->execute([date('Y-m-d')]);
-    $bookings = $stmt->fetchAll();
-}
-catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting data from the database');
-}
-
-
-foreach ($bookings as $booking) {
-
-    $bookingDate = new DateTimeImmutable($booking['date']);
-    $bookingDateText = $bookingDate->format('d M Y');
-
-    $bookingTime = new DateTimeImmutable($booking['time']);
-    $bookingTimeText = $bookingTime->format('g:ia');
-
-
-    echo '<li>';
-    echo $booking['username'];
-
-    echo ' '.$booking['court_id'];
-
-    echo ' '.$bookingDateText;
-
-    echo '  '.$bookingTimeText;
-    echo '</li>';
-
-}
-?>
-    
 
 <?php endif ?>

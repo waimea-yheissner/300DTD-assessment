@@ -31,6 +31,7 @@ $router->route(GET, PAGE, '/about', 'pages/about.php');
 
 
 $router->route(GET, PAGE, '/bookings', 'pages/bookings.php');
+$router->route(GET, HTMX, '/bookings/$offset', 'components/bookings.php');
 $router->route(GET,  HTMX, '/booking-form',   'components/form-booking.php');
 $router->route(POST, HTMX, '/create-booking', 'actions/create-booking.php');
 

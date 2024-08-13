@@ -24,7 +24,9 @@ body {
     align-items: center;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 2rem;
-    background-color: #FAFFF3;
+    /*background-color: #FAFFF3;*/
+    background-color: EEF4ED;
+
 }
 
 #main-header > * {

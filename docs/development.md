@@ -73,3 +73,7 @@ You are able to see the changes I made based on my feedback below.
 ### 14/06/2024
 
 I started to make my website and I am focusing on the functions first before I start my design side of the project.
+
+### 13/08/2024 
+
+i
