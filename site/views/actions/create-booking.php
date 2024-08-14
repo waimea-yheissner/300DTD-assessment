@@ -14,7 +14,7 @@ $endtime = $_POST['endtime'];
 
 $db = connectToDB();
 
-$query = 'SELECT * FROM bookings WHERE date = ? AND time=?';
+$query = 'SELECT * FROM bookings WHERE date = ? AND starttime=? AND endtime=?';
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$date, $starttime, $endtime]);
@@ -27,7 +27,7 @@ catch (PDOException $e) {
 
 if ($existingBooking == false) {
         // add the user account     
-    $query = 'INSERT INTO bookings (username, court_id, date, starttime, endtime) VALUES (?, ?, ?, ?, ?,)';
+    $query = 'INSERT INTO bookings (username, court_id, date, starttime, endtime) VALUES (?, ?, ?, ?, ?)';
     $stmt = $db->prepare($query);
     $stmt->execute([$user, $court, $date, $starttime, $endtime]);
 

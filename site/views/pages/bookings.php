@@ -27,7 +27,7 @@
 </section>
     
     <button hx-get="/booking-form" hx-swap="outerHTML">
-                <strong>C</strong>reate booking
+                Create booking
             </button>
 
     

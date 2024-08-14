@@ -22,7 +22,7 @@
         <input name="starttime" type="time" step="900" value="08:00" required>
 
         <label>End Time</label>
-        <input name="endtime" type="time" step="900" value="08:00" required>
+        <input name="endtime" type="time" step="900" value="09:00" required>
 
         <input type="submit" value="create-booking">
     

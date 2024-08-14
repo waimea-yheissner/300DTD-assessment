@@ -28,12 +28,12 @@ catch (PDOException $e) {
 
 echo '<h1>Bookings for ' . date_format($displayDate, 'd M Y') . '</h1>';
 
-echo '    
+echo '<div class="button-list"> 
     <button
         hx-get="/bookings/'.($offset-1).'"
         hx-target="#bookings-list"
     >
-        Previous day
+        Prev day
     </button>
 
     <button
@@ -47,7 +47,7 @@ echo '
     hx-get="/bookings/'.($offset-7).'"
     hx-target="#bookings-list"
 >
-    Previous week
+    Prev week
     </button>
 
 
@@ -58,7 +58,7 @@ echo '
     next week
     </button>
 
-
+</div>
 ';
 
 echo '<ul>';
@@ -66,22 +66,25 @@ echo '<ul>';
 foreach ($bookings as $booking) {
 
     $bookingDate = new DateTimeImmutable($booking['date']);
-    $bookingDateText = $bookingDate->format('d M Y');
+    $bookingDateText = $bookingDate->format('d M');
 
-    $bookingTime = new DateTimeImmutable($booking['starttime']);
-    $bookingTimeText = $bookingTime->format('g:ia');
+    $bookingStartTime = new DateTimeImmutable($booking['starttime']);
+    $bookingStartTimeText = $bookingStartTime->format('g:ia');
+
+    $bookingEndTime = new DateTimeImmutable($booking['endtime']);
+    $bookingEndTimeText = $bookingEndTime->format('g:ia');
 
 
     echo '<li>';
     echo $booking['username'];
 
-    echo ' '.$booking['court_id'];
+    echo ' court '.$booking['court_id'];
 
     echo ' '.$bookingDateText;
 
-    echo '  '.$bookingTimeText;
+    echo '  '.$bookingStartTimeText;
 
-    echo '  '.$bookingTimeText;
+    echo '  to   '.$bookingEndTimeText;
     echo '</li>';
 
 }
