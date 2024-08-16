@@ -6,7 +6,7 @@ consoleLog($_POST, 'Form data');
 
 //get the data values from form
 $user = $_POST['username'];
-$court  = $_POST['court_id'];
+$court  = $_POST['court'];
 $date = $_POST['date'];
 $starttime = $_POST['starttime'];
 $endtime = $_POST['endtime'];
@@ -27,7 +27,7 @@ catch (PDOException $e) {
 
 if ($existingBooking == false) {
         // add the user account     
-    $query = 'INSERT INTO bookings (username, court_id, date, starttime, endtime) VALUES (?, ?, ?, ?, ?)';
+    $query = 'INSERT INTO bookings (username, court, date, starttime, endtime) VALUES (?, ?, ?, ?, ?) ' ;
     $stmt = $db->prepare($query);
     $stmt->execute([$user, $court, $date, $starttime, $endtime]);
 

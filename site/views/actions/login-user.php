@@ -25,10 +25,11 @@ if ($userData) {
     if (password_verify($pass, $userData['hash'])) {
 // we got here, so user and password both ok
         $_SESSION['user']['loggedIn'] = true;
-// save user info for later use
+        // save user info for later use
+        $_SESSION['user']['username'] = $userData['username'];
         $_SESSION['user']['forename'] = $userData['forename'];
         $_SESSION['user']['surname'] = $userData['surname'];
-// Head over to the home page
+        // Head over to the home page
         header('HX-Redirect: ' . SITE_BASE . '/');
     }
     else {

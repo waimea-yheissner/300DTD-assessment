@@ -24,7 +24,7 @@ body {
     align-items: center;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 2rem;
-    /*background-color: #FAFFF3;*/
+    background-color: #FAFFF3;
     background-color: EEF4ED;
 
 }
@@ -41,6 +41,11 @@ body {
     color: black;
 }
 
+div#panel {
+    background-image: url(../images/badminton.png);
+    background-repeat: repeat-x;
+    height: 5rem;
+}
 
 /* FOOTER ---------------------------------------- */
 
@@ -49,7 +54,8 @@ body {
     border-top: 1px solid var(--border-color);
     margin-top: 2rem;
     background-color: #144579;
-    color: #ffff;
+    color: white;
+    
 }
 
 
@@ -92,21 +98,57 @@ section {
 article {
     border: 1px solid var(--border-color);
     min-height: 6rem;
+    background-color: #1e2530;
 }
 
 h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
     color: black;
 }
 
+p {
+    color: black;
+}
+
+#footer p {
+    color: #dbddd9;
+}
+
 button {
-    max-width: 75px;
-    height: 50px;
+    /* flex: 1; */
+    /* max-width: 10ch; */
+    /* height: 50px; */
     text-align: center;
-    line-height: 10px;
-    
+    line-height: 1;
+    /* padding: 0.5rem; */
 }
 
 .button-list {
     display: flex;
     gap: 0.8rem;
+    justify-content: center;
+}
+
+#backbutton {
+--pico-background-color: var(--pico-primary-background);
+--pico-border-color: var(--pico-primary-border);
+--pico-color: var(--pico-primary-inverse);
+--pico-box-shadow: var(--pico-button-box-shadow, 0 0 0 rgba(0, 0, 0, 0));
+padding: var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);
+border: var(--pico-border-width) solid var(--pico-border-color);
+border-radius: var(--pico-border-radius);
+outline: 0;
+background-color: var(--pico-background-color);
+box-shadow: var(--pico-box-shadow);
+color: var(--pico-color);
+font-weight: var(--pico-font-weight);
+font-size: 1rem;
+/* line-height: var(--pico-line-height); */
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+
 }

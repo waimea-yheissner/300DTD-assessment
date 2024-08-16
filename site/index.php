@@ -20,8 +20,11 @@ $router = new Router(['debug' => true]);
 //-------------------------------------------------------------
 // see if logged in
 $loggedIn = $_SESSION['user']['loggedIn'] ?? false;
+$username = $_SESSION['user']['username'] ?? null;
 
 consoleLog($_SESSION);
+consoleLog($loggedIn, 'logged');
+consoleLog($username, 'user');
 
 //-------------------------------------------------------------
 // Define routes

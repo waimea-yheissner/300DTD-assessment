@@ -1,7 +1,8 @@
-<?php global $isLoggedIn; ?>
+<?php global $loggedIn; ?>
+<?php global $username; ?>
     
 
-<?php if ($isLoggedIn): ?>
+<?php if (!$loggedIn): ?>
 
     <h1>Forbidden</h1>
 
@@ -34,7 +35,7 @@
 
 
 
-    <a href="/">back</a>
+    <a id= 'backbutton' href="/">back</a>
 
 
 <?php endif ?>

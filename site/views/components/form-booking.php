@@ -1,14 +1,14 @@
+<?php global $username; ?>
 
 
 <article>
     <form hx-post="create-booking" hx-trigger="submit" hx-swap="outerHTML">
         <h3>New Booking</h3>
     
-        <label>username</label>
-        <input name="username" type="text" required>
+        <input name="username" type="hidden" value="<?= $username ?>">
     
         <label>Court number</label>
-        <select name="court_id" required>
+        <select name="court" required>
             <option>1</option>
             <option>2</option>
             <option>3</option>

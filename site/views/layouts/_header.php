@@ -24,5 +24,5 @@
 
 </header>
 
-<img src="images/badminton.png" alt="badminton">
+<div id="panel"></div>
 
