@@ -74,6 +74,9 @@ You are able to see the changes I made based on my feedback below.
 
 I started to make my website and I am focusing on the functions first before I start my design side of the project.
 
+### 20/06/2024
+I finished making the login, logout, and sign up functions working. users will be able sign up by them self.
+
 ### 09/08/2024 
 
 I worked on my css on only for mobile and I attempted to make it as the figma design. 
@@ -86,8 +89,29 @@ I have added the functions next day, previous day, next week, previous week by u
 
 ![Alt text](images/next-page.png)
 
+
+### 16/08/2024 
+
+When I showed my end user the complete website they said I would not need to print out the username because i already had the name of the user who is booking, and that I don't need to print out the date because it already says the current date on top of the screen, this will help it being more simple and easier to view. 
+![alt text](images/booking-list.png)
+
+And here is the updated page. this helps the list to be smaller and easier to view.
+![Alt text](images/booking-list-updated.png)
+
 ### 15/08/2024
 
-adasdadada 
+I did not have time to make the admin login functions, and the grid to see the bookings. 
+My End user said the list looked fine and maybe better than the grid because it is more easier to view. 
+
+### 23/08/2024
+
+Here is a video of me testing all the functionality's of the website.
+
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/yheissner_waimea_school_nz/EdhTVebe54xHoI6AjlaTqwoBzhSS1WLKJ6Mw3R92sDdKdw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dTf0rf 
 
 
+![Alt text](images/validation-home.png)
+
+![Alt text](images/validation-signup.png)
+
+![Alt text](images/validation-bookings.png)

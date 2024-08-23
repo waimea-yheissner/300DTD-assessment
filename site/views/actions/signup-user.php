@@ -23,4 +23,4 @@ $stmt->execute([$fore, $sur, $user, $hash]);
 
 echo '<h2>Account created!</h2>';
 
-echo '<p><a href="/">Home</a>';
+// echo '<p><a href="/">Home</a>';

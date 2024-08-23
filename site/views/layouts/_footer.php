@@ -2,7 +2,7 @@
 
 <footer id="main-footer">
 
-<class id="footer">
+<div id="footer">
     <p>
         &copy; <?= date('Y') ?> <?= SITE_OWNER ?>
     </p>
@@ -14,5 +14,5 @@
     <p>
         phone: 028-5374-726 
     </p>
-</class>
+</div>
 </footer>

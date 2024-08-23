@@ -19,13 +19,13 @@
 // }
 ?>
 
-<section 
+<div 
     hx-get="/bookings/0" 
     id="bookings-list"
     hx-trigger="load"
 >
 
-</section>
+</div>
     
     <button hx-get="/booking-form" hx-swap="outerHTML">
                 Create booking

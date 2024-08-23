@@ -31,12 +31,12 @@ if ($existingBooking == false) {
     $stmt = $db->prepare($query);
     $stmt->execute([$user, $court, $date, $starttime, $endtime]);
 
-    echo '<h2>Booking created!</h2>';
+    echo '<h3>Booking created!</h3>';
 }
 else {
-    echo '<h2>This time is already booked</h2>';
+    echo '<h3>This time is already booked</h3>';
 }
 
 
 
-echo '<p><a href="/">Home</a>';
+echo '<p><a href="/bookings">Back</a>';

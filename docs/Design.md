@@ -154,12 +154,11 @@ The website will have the minimalist design and simple colours and the least amo
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Alt text](images/db.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
-
+![Alt text](images/figma-final.png)
 
 -------------------------------------------------
 
@@ -167,11 +166,16 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![Alt text](images/database.png)
+
+I removed the idea of having a court table because it was unnecessary to have a different table when I can just insert the court number into to the bookings table.
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+![Alt text](images/website-home.png)
+![Alt text](images/website-bookinglist.png)
+
+I had to have the bookings in boxes because I ran out of time on doing the grid view for the bookings. 
 
 
 -------------------------------------------------
@@ -180,32 +184,34 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+I met the user requirement of being able to easily navigate on mobile and desktop view. 
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+I met the system requirements being able to, log in/out, sign up, create a booking, and view other peoples bookings to see when they can book.
 
-### Review of IMPLICATION NAME HERE
+I could not get the functions of the admin log in working on time and users being able to delete/cancel their bookings. 
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
-### Review of IMPLICATION NAME HERE
+### Review of Usability  
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of Privacy  
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
+### Review of Accessibility 
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of Visibility of System Status
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
+### Review of Error Prevention
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
+### Review of Aesthetic and Minimalist Design
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.

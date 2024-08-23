@@ -6,7 +6,7 @@ require_once 'lib/debug.php';
 require_once 'lib/router.php';
 
 // Site Configuration
-const SITE_NAME  = 'Nelson badminton';
+const SITE_NAME  = 'Nelson Badminton';
 const SITE_OWNER = 'Waimea College';
 
 // Setup browser session
@@ -21,10 +21,6 @@ $router = new Router(['debug' => true]);
 // see if logged in
 $loggedIn = $_SESSION['user']['loggedIn'] ?? false;
 $username = $_SESSION['user']['username'] ?? null;
-
-consoleLog($_SESSION);
-consoleLog($loggedIn, 'logged');
-consoleLog($username, 'user');
 
 //-------------------------------------------------------------
 // Define routes
@@ -43,11 +39,7 @@ $router->route(POST,   HTMX, '/logout',    'actions/logout-user.php');
 $router->route(POST,   HTMX, '/signup', 'actions/signup-user.php');
 
 
-
 //-------------------------------------------------------------
 // Generate the required view
 
 $router->view();
-
-
-

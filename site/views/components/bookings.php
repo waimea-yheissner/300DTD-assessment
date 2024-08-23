@@ -109,9 +109,9 @@ foreach($courts as $court) {
     
         echo '<strong>' . $booking['forename'] . ' ' . $booking['surname'] . '</strong>';
     
-        echo ' (' . $booking['username'] . ')';
+        // echo ' (' . $booking['username'] . ')';
     
-        echo '<br>'.$bookingDateText;
+        // echo '<br>'.$bookingDateText;
     
         echo '  '.$bookingStartTimeText;
     

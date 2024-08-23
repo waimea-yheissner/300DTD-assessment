@@ -19,7 +19,7 @@
         }
     ?>
 
-<img src="images/netflex.png" alt="badminton" style="width: 7vw; min-width: 75px;"/> 
+<img src="images/netflex.png" alt="badminton" style="width: 7vw; min-width: 75px;"> 
  <?php  //require '_nav.php'; ?> 
 
 </header>
