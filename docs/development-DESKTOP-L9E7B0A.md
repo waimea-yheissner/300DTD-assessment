@@ -50,6 +50,7 @@ I have been working on figma designing my UI.
 
 I have completed the UI design on figma and now waiting on a response frm my end user on the functions and design. 
 
+
 the basic functions are that users can login/sign up/logout. they can go straight to the bookings and choose a time and book an court. 
 
 ### 07/06/2024
@@ -74,10 +75,10 @@ You are able to see the changes I made based on my feedback below.
 I started to make my website and I am focusing on the functions first before I start my design side of the project.
 
 ### 20/06/2024
-I finished making the login, logout, and sign up functions working. users will be able sign up by them self.
+I finished making the login, logout, and sign up functions working. users will be able be able to sign up with just their names. 
 
-### 28/06/2024 
-I have finished working on the function of creating a booking and viewing the bookings on each court. 
+### 27/06/2024 
+I got the creating booking functions done. so now anyone with an account and is logged in can book a court from 1-4. 
 
 ### 09/08/2024 
 
@@ -97,28 +98,11 @@ I have added the functions next day, previous day, next week, previous week by u
 When I showed my end user the complete website they said I would not need to print out the username because i already had the name of the user who is booking, and that I don't need to print out the date because it already says the current date on top of the screen, this will help it being more simple and easier to view. 
 ![alt text](images/booking-list.png)
 
-And here is the updated page. this helps the list to be smaller and easier to view.
-![Alt text](images/booking-list-updated.png)
-
 ### 15/08/2024
 
 I did not have time to make the admin login functions, and the grid to see the bookings. 
 My End user said the list looked fine and maybe better than the grid because it is more easier to view. 
 
-### 22/08/2024
 
-Here is images of me validating my code. 
-
-![Alt text](images/validation-home.png)
-
-![Alt text](images/validation-signup.png)
-
-![Alt text](images/validation-bookings.png)
-
-### 23/08/2024
-
-Here is a video of me testing all the functionality's of the website.
-
-https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/yheissner_waimea_school_nz/EdhTVebe54xHoI6AjlaTqwoBzhSS1WLKJ6Mw3R92sDdKdw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dTf0rf 
 
 

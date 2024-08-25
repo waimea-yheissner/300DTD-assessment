@@ -154,11 +154,12 @@ The website will have the minimalist design and simple colours and the least amo
 
 ### Database Structure
 
-![Alt text](images/db.png)
+![alt text](images/database.png)
 
 ### User Interface Design
 
-![Alt text](images/figma-final.png)
+Place images here that show your *final design* of your UI: layout, colours, etc.
+
 
 -------------------------------------------------
 
@@ -166,17 +167,11 @@ The website will have the minimalist design and simple colours and the least amo
 
 ### Database Structure
 
-![Alt text](images/database.png)
-
-I removed the idea of having a court table because it was unnecessary to have a different table when I can just insert the court number into to the bookings table.
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
 ### User Interface Design
 
-![Alt text](images/website-home.png)
-![Alt text](images/website-bookinglist.png)
-
-I had to have the bookings in boxes because I ran out of time on doing the grid view for the bookings.
-My end user said it was good in its own way because it is more obvious than the grid on what times are booked. 
+Place screenshots and notes here that show your *actual system UI* in action.
 
 
 -------------------------------------------------
@@ -185,51 +180,36 @@ My end user said it was good in its own way because it is more obvious than the 
 
 ### Meeting the Needs of the Users
 
-I met the user requirement of being able to easily navigate on mobile and desktop view. 
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+
+
 
 ### Meeting the System Requirements
 
-I met the system requirements being able to, log in/out, sign up, create a booking, and view other peoples bookings to see when they can book.
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-I could not get the functions of the admin log in working on time and users being able to delete/cancel their bookings. 
+I did not 
 
-### Review of Usability  
+### Review of IMPLICATION NAME HERE
 
-The implication of usability was well addressed in this website. It is easy navigate through out the website. there are only a few buttons you need to navigate through to get to the bookings. The users only need to go to log in and log in then go to the bookings page. 
-![alt text](images/login.png)
-![alt text](images/booking.png)
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of Privacy  
+### Review of IMPLICATION NAME HERE
 
-The implication of usability was well addressed in this website. When a user creats an account they have to have a password to make an account so their account is secure and this password is inserted in a database.  
-![alt text](images/password.png)
-But in case a bad actor gets access to the data base, all the users password are hashed so the bad actor can not get any users password 
-![alt text](images/hashed-passwords.png)
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of Accessibility 
+### Review of IMPLICATION NAME HERE
 
-The implication of accessibility was addressed well in this website. The website is accessible on any plat form. The website is also easy to navigate on any device. 
-![alt text](images/desktop.png)
-![alt text](images/website-home.png)
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of Visibility of System Status
+### Review of UX PRINCIPLE NAME HERE
 
-visibility of system status was addressed in this website by having a pop up say that a booking was created or there was an error fetching data from the database so that the users know what is happening in the back. 
-![alt text](images/booking-created.png)
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of Error Prevention
+### Review of UX PRINCIPLE NAME HERE
 
-Error prevention was addressed in this website by having pop ups if the users put invalid numbers or characters or don't enter anything. I also added a function where users can only book a court in 15min time periods. If they enter a invalid a time a pop will come up to prevent errors. 
-![alt text](images/booking-time.png)
-![alt text](images/error.png)
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
+### Review of UX PRINCIPLE NAME HERE
 
-### Review of Aesthetic and Minimalist Design
-
-Aesthetic and Minimalist Design was addressed in this website by using only a few colours all the links and buttons having the same colour and all the pages header, and footer being the same. 
-![alt text](images/website-home.png)
-![alt text](images/website-bookinglist.png)
-
-
-
-
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
